@@ -1,6 +1,3 @@
-# Creating the README.md file with structured content
-
-readme_content = """\
 # Stroke Prediction Using N-Fold Cross Validation
 
 ## Overview
@@ -34,10 +31,3 @@ This project applies **N-Fold Cross Validation** to train a **Deep Neural Networ
 - **5-Fold Cross Validation** is applied using `KFold(n_splits=5)`, shuffling data before training.
 - The model is trained separately for each fold, and accuracy is recorded for each validation set.
 - Final performance is reported as **average accuracy across all folds**.
-
-## Running the Code
-### Prerequisites
-Ensure you have **Python 3.x** installed with the following dependencies:
-
-```bash
-pip install numpy pandas scikit-learn keras tensorflow
