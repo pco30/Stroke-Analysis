@@ -40,25 +40,6 @@ This project implements a **Deep Neural Network (DNN)** to predict stroke occurr
   - **Mean Squared Error (MSE)**
   - **Mean Absolute Error (MAE)**
 
-## Running the Code
-### Prerequisites
-Ensure you have **Python 3.x** installed with the following dependencies:
-
-```bash
-pip install numpy pandas seaborn matplotlib scikit-learn keras tensorflow
-```
-
-### Instructions
-1. **Download the dataset** (`stroke_data.csv`) and place it in the same directory as the script.
-2. **Run the script** using:
-   ```bash
-   python stroke_prediction.py
-   ```
-3. The model will output **error metrics (MSE, MAE)** and display feature selection results.
-
 ## Output Files
 - **Trained deep learning model for stroke prediction.**
 - **Feature importance visualization (bar chart, heatmap).**
-
-## Conclusion
-This project explores deep learning techniques to classify stroke occurrence using medical and lifestyle features. The convolutional layers enhance feature extraction, while proper feature selection improves model efficiency.
